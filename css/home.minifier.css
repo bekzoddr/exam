@@ -1,0 +1,274 @@
+.nav-list,
+.tv {
+    position: fixed;
+    top: 25px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf)
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-ExtraBold.ttf)
+}
+
+html {
+    scroll-behavior: none
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.Home {
+    position: fixed;
+    width: 1220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 600px;
+    list-style: none;
+    gap: 80px
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .2px
+}
+
+.main h1,
+.tv {
+    color: var(--text-color, #252b42);
+    font-family: Montserrat;
+    font-style: normal
+}
+
+.tv {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: .1px
+}
+
+.nav-link:hover {
+    color: #000;
+    opacity: 1
+}
+
+.container-1 {
+    width: 1170px;
+    height: 610px
+}
+
+.main {
+    width: 100vw;
+    height: 610px;
+    background-image: url(../images/home.png)
+}
+
+.click,
+.com {
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: .2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    padding: 10px 36px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    gap: 10px;
+    background: var(--primary-color, #ffa62b)
+}
+
+.main h1 {
+    width: 509px;
+    height: 160px;
+    position: relative;
+    top: 80px;
+    left: 150px;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: .2px
+}
+
+.main h4 {
+    width: 376px;
+    height: 60px;
+    position: relative;
+    top: 110px;
+    left: 150px;
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: .2px
+}
+
+.card-1 h3,
+.card-2 h3,
+.card-3 h3,
+.click,
+.com {
+    font-weight: 700;
+    font-family: Montserrat;
+    font-style: normal
+}
+
+.click {
+    top: 140px;
+    left: 150px;
+    color: var(--light-text-color, #fff);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 37px
+}
+
+.click:hover,
+.com:hover {
+    background-color: #fff;
+    border: 1px solid var(--secondary-color-1, #00a0c1);
+    color: #00a0c1
+}
+
+.card-1:hover,
+.com {
+    color: var(--light-text-color, #fff)
+}
+
+.com {
+    top: 90px;
+    left: 360px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 37px
+}
+
+.card-1,
+.card-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-direction: column
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 328px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    gap: 10px;
+    background-color: #fff;
+    position: relative
+}
+
+.card-1 {
+    display: flex;
+    padding: 35px 40px;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 100px;
+    left: 100px
+}
+
+.card-1 h3,
+.card-2 h3,
+.card-3 h3 {
+    color: var(--text-color, #252b42);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: .1px
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p {
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .2px
+}
+
+.card-1:hover {
+    background: #fff;
+    -webkit-box-shadow: 0 13px 19px 0 rgba(0, 0, 0, .07);
+    box-shadow: 0 13px 19px 0 rgba(0, 0, 0, .07);
+    background: var(--secondary-color-1, #00a0c1)
+}
+
+.card-2 {
+    display: flex;
+    padding: 35px 15px;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 300px;
+    left: 550px
+}
+
+.card-2:hover,
+.card-3:hover {
+    -webkit-box-shadow: 0 13px 19px 0 rgba(0, 0, 0, .07);
+    box-shadow: 0 13px 19px 0 rgba(0, 0, 0, .07);
+    background: var(--secondary-color-1, #00a0c1);
+    color: #fff
+}
+
+.card-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 35px 40px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 510px;
+    left: 970px
+}

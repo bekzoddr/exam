@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+.container-2{
+    width: 100vw;
+    height: 750px;
+
+}
+.about{
+    display: flex;
+        width: 1050px;
+        padding: 80px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        top: 50px;
+}
+.box {
+    display: flex;
+        width: 864px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+.box h2{
+    color: var(--text-color, #252B42);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        position: relative;
+        top: 150px;
+        left: 180px;
+}
+.box p{
+    color: var(--second-text-color, #737373);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        width: 511px;
+        height: 41px;
+        position: relative;
+        top: 160px;
+        left: 190px;
+}
+.box-cards-1{
+    display: flex;
+        width: 230px;
+        padding: 30px 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        top: 200px;
+        left: 150px;
+}
+.box-cards-1 h2{
+    color: var(--text-color, #252B42);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+}
+.box-cards-1 h5{
+    color: var(--second-text-color, #737373);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+}
+.box-cards-1:hover{
+     background: #FFF;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+.box-cards-2{
+    display: flex;
+        width: 230px;
+        padding: 30px 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        bottom: 0px;
+        left: 460px;
+
+}
+.box-cards-2 h2{
+    color: var(--text-color, #252B42);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+}
+.box-cards-2 h5{
+    color: var(--second-text-color, #737373);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+}
+.box-cards-2:hover{
+background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.box-cards-3 {
+    display: flex;
+    width: 230px;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 220px;
+    left: 760px;
+
+}
+
+.box-cards-3 h2 {
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.box-cards-3 h5 {
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.box-cards-3:hover {
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.box-cards-4 {
+    display: flex;
+    width: 230px;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 430px;
+    left:1080px;
+
+}
+
+.box-cards-4 h2 {
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.box-cards-4 h5 {
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.box-cards-4:hover {
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,154 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/static/Montserrat-ExtraBold.ttf);
+
+}
+
+.container3{
+    width: 1050px;
+    height: 699px;
+    margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+
+}
+.advice{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+        width: 864px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 10px;
+        position: relative;
+        top: 205px;
+        left: 160px;
+}
+article h2 {
+    width:163px;
+    height:57px;
+    color: var(--text-color, #252B42);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+
+}
+.article p{
+    width: 470px;
+    height: 70px;
+    color: var(--second-text-color, #737373);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        position: relative;
+        right: 160px;
+        top: 10px;
+}
+.advice-cards{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        width: 232px;
+        padding: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        gap: 20px;
+}
+
+.advice-cards-1{
+    position: relative;
+    right:620px;
+}
+.advice-cards-2{
+    position: relative;
+    bottom: 246px;
+    right: 260px;
+}
+.advice-cards-3{
+    position: relative;
+    bottom: 470px;
+    left: 100px;
+}
+.advice-cards-4{
+    position: relative;
+    bottom: 715px;
+    left: 430px;
+
+}
+.advice-cards h5{
+    color: var(--text-color, #252B42);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+       
+}
+.advice-cards p{
+    color: var(--second-text-color, #737373);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+}
+span{
+    height: 48px;
+}
+.advice-cards-1:hover {
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.advice-cards-2:hover {
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.advice-cards-3:hover {
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.advice-cards-4:hover {
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
